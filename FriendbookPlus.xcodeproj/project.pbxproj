@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A29863541C409135006C397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29863531C409135006C397E /* AppDelegate.swift */; };
-		A29863561C409135006C397E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29863551C409135006C397E /* ViewController.swift */; };
 		A29863591C409135006C397E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29863571C409135006C397E /* Main.storyboard */; };
 		A298635B1C409135006C397E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A298635A1C409135006C397E /* Assets.xcassets */; };
 		A298635E1C409135006C397E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A298635C1C409135006C397E /* LaunchScreen.storyboard */; };
+		A2B65A441C4BE6580013AA13 /* FriendDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B65A431C4BE6580013AA13 /* FriendDetailsViewController.swift */; };
+		A2B65A461C4BEBC50013AA13 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B65A451C4BEBC50013AA13 /* Friend.swift */; };
+		A2EE46C01C4094870055F1A5 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE46BF1C4094870055F1A5 /* FriendListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A29863501C409135006C397E /* FriendbookPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendbookPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29863531C409135006C397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A29863551C409135006C397E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A29863581C409135006C397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A298635A1C409135006C397E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A298635D1C409135006C397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A298635F1C409135006C397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B65A431C4BE6580013AA13 /* FriendDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailsViewController.swift; sourceTree = "<group>"; };
+		A2B65A451C4BEBC50013AA13 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		A2EE46BF1C4094870055F1A5 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		A29863521C409135006C397E /* FriendbookPlus */ = {
 			isa = PBXGroup;
 			children = (
+				A2EE46BF1C4094870055F1A5 /* FriendListViewController.swift */,
+				A2B65A431C4BE6580013AA13 /* FriendDetailsViewController.swift */,
 				A29863531C409135006C397E /* AppDelegate.swift */,
-				A29863551C409135006C397E /* ViewController.swift */,
 				A29863571C409135006C397E /* Main.storyboard */,
 				A298635A1C409135006C397E /* Assets.xcassets */,
 				A298635C1C409135006C397E /* LaunchScreen.storyboard */,
 				A298635F1C409135006C397E /* Info.plist */,
+				A2B65A451C4BEBC50013AA13 /* Friend.swift */,
 			);
 			path = FriendbookPlus;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29863561C409135006C397E /* ViewController.swift in Sources */,
+				A2B65A441C4BE6580013AA13 /* FriendDetailsViewController.swift in Sources */,
+				A2EE46C01C4094870055F1A5 /* FriendListViewController.swift in Sources */,
 				A29863541C409135006C397E /* AppDelegate.swift in Sources */,
+				A2B65A461C4BEBC50013AA13 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				A29863641C409135006C397E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
